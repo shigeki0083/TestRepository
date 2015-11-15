@@ -11,6 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!\n");
+            Console.WriteLine(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
         }
     }
 }
