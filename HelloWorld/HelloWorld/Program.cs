@@ -13,6 +13,7 @@ namespace HelloWorld
             Console.WriteLine("Hello, World!\n");
             Console.WriteLine(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
 
+            // キー入力待ち
             Console.ReadKey();
         }
     }
