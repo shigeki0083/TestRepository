@@ -16,7 +16,7 @@ namespace HelloWorld
             Console.WriteLine("Edit on web browser.");
 
             // キー入力待ち
-            Console.ReadKey();
+            var key = Console.ReadKey();
         }
     }
 }
